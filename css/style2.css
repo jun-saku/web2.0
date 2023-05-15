@@ -1,0 +1,28 @@
+body {
+	background:  url(../img/bg.gif) fixed center no-repeat;
+}
+.title {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 20%;
+	text-shadow: 0.5px 0.5px 0.5px black;
+}
+.title p{
+	font-size: 150%;
+	color: black;
+}
+.title h1 {
+	color: black;
+	font-size: 350%;
+}
+.enhancement1, .enhancement2 {
+	float: left;
+	text-align: justify;
+	height: 100%;
+}
+@media all and (max-width: 500px) {
+	.enhancement1, .enhancement2 {
+		height: 175%;
+	}
+}
